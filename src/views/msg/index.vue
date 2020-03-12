@@ -246,7 +246,7 @@
                     }
                     .detail{
                         padding: .10rem;
-                        border: 1px solid #ccc;
+
                         border-radius: 0.04rem;
                         background-color: #fff;
                         font-size: .16rem;
@@ -257,6 +257,7 @@
                 }
                 .left-msg{
                     .detail{
+                        border: 1px solid #ccc;
                         margin: 0 0.48rem 0 0.2rem;
                         &:after{
                             content: ' ';
@@ -264,15 +265,17 @@
                             height: .16rem;
                             position: absolute;
                             top: .16rem;
-                            left: -0.1rem;
+                            left: -0.09rem;
                             background: url("./images/jiantou1.png") no-repeat;
                             background-size: 100% 100%;
+                            z-index: 8;
                         }
                     }
                 }
                 .right-msg{
                     justify-content: flex-end;
                     .detail{
+                        border: 1px solid #53b3f8;
                         margin: 0 0.2rem 0 0.48rem;
                         background-color: #53b3f8;
                         color: #fff;
@@ -282,7 +285,7 @@
                             height: .16rem;
                             position: absolute;
                             top: .16rem;
-                            right: -0.1rem;
+                            right: -0.09rem;
                             background: url("./images/jiantou2.png") no-repeat;
                             background-size: 100% 100%;
                         }
@@ -308,7 +311,7 @@
             background-color: #f3f3f3;
             .input-panel{
                 width: 100%;
-                height: .5rem;
+                height: .4rem;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -316,14 +319,14 @@
                 margin: .12rem auto .2rem;
                 .emoji{
                     display: block;
-                    width: .42rem;
-                    height: .42rem;
+                    width: .28rem;
+                    height: .28rem;
                 }
                 .input{
                     flex: 1;
-                    height: .5rem;
+                    height: .4rem;
                     padding: .14rem .14rem;
-                    border-radius: .5rem;
+                    border-radius: .4rem;
                     border: 1px solid #ccc;
                     background-color: #fff;
                     margin: 0 .12rem;
