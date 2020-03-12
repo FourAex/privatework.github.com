@@ -153,7 +153,6 @@
         name: 'login',
         data() {
             return {
-
             }
         },
         mounted() {
