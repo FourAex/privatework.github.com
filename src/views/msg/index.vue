@@ -332,6 +332,7 @@
                     margin: 0 .12rem;
                     outline: none;
                     font-size: .18rem;
+                    -webkit-appearance: none;
                 }
                 .send{
                     color: #53b3f8;
