@@ -11,11 +11,11 @@ export default new Router({
       path: '/',
       name: 'login',
       component: () => import(/* webpackChunkName: "login" */ './views/login/index')
-    },
-    {
-      path: '/msg',
-      name: 'msg',
-      component: () => import(/* webpackChunkName: "login" */ './views/msg/index')
+    // },
+    // {
+    //   path: '/msg',
+    //   name: 'msg',
+    //   component: () => import(/* webpackChunkName: "login" */ './views/msg/index')
     }
   ]
 })

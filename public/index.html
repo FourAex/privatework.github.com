@@ -4,9 +4,29 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>xianyutong</title>
+  <title>Title</title>
   <script>
+    (function (doc, win) {
+      let docEl = win.document.documentElement;
+      let resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
 
+      let refreshRem = function () {
+        let clientWidth = win.innerWidth
+                || doc.documentElement.clientWidth
+                || doc.body.clientWidth;
+
+        if (!clientWidth) return;
+        let fz;
+        let width = clientWidth;
+        fz = 100 * width / 375;
+        docEl.style.fontSize = fz + 'px';
+      };
+
+      if (!doc.addEventListener) return;
+      win.addEventListener(resizeEvt, refreshRem, false);
+      doc.addEventListener('DOMContentLoaded', refreshRem, false);
+      refreshRem();
+    })(document, window);
   </script>
 </head>
 <body>
