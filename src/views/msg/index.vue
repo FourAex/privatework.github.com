@@ -328,7 +328,7 @@
                     height: .4rem;
                     padding: .14rem .14rem;
                     border-radius: .4rem;
-                    border: 1px solid #3c3c3c;
+                    border: 1px solid #404354;
                     background-color: #161823;
                     margin: 0 .12rem;
                     outline: none;
