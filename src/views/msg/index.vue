@@ -186,7 +186,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-bottom: env(safe-area-inset-bottom);
         .nav-bar{
             width: 100%;
             height: .5rem;
@@ -308,8 +307,9 @@
         }
         .opts-panel{
             width: 100%;
-            height: 1.45rem;
+            height: calc(1.45rem + env(safe-area-inset-bottom));
             background-color: #202231;
+            padding-bottom: env(safe-area-inset-bottom);
             .input-panel{
                 width: 100%;
                 height: .4rem;
