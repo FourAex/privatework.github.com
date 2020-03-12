@@ -56,14 +56,14 @@
         align-items: center;
         .nav-bar{
             width: 100%;
-            height: .6rem;
-            min-height: .6rem;
+            height: .5rem;
+            min-height: .5rem;
             position: relative;
             background-color: #f3f3f3;
             .title{
                 width: 100%;
                 height: 100%;
-                line-height: .6rem;
+                line-height: .5rem;
                 text-align: center;
                 font-weight: bold;
                 color: #000;
