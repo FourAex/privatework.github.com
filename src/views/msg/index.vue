@@ -189,14 +189,14 @@
         align-items: center;
         .nav-bar{
             width: 100%;
-            height: .6rem;
-            min-height: .6rem;
+            height: .5rem;
+            min-height: .5rem;
             position: relative;
             background-color: #f3f3f3;
             .title{
                 width: 100%;
                 height: 100%;
-                line-height: .6rem;
+                line-height: .5rem;
                 text-align: center;
                 font-weight: bold;
                 color: #000;
@@ -223,7 +223,7 @@
             width: 100%;
             height: calc(100vh - 2.25rem);
             background-color: #ededed;
-            padding: .28rem .14rem 0;
+            padding: 0 .14rem;
             display: flex;
             flex-direction: column;
             .msg-list{
@@ -231,6 +231,7 @@
                 overflow-x: hidden;
                 overflow-y: auto;
                 list-style: none;
+                padding-top: .16rem;
                 .msg{
                     display: flex;
                     margin-bottom: .24rem;
@@ -245,8 +246,8 @@
                         }
                     }
                     .detail{
-                        padding: .10rem;
-
+                        padding: 0.08rem .10rem;
+                        color: #333;
                         border-radius: 0.04rem;
                         background-color: #fff;
                         font-size: .16rem;
@@ -307,7 +308,7 @@
         }
         .opts-panel{
             width: 100%;
-            height: 1.65rem;
+            height: 1.45rem;
             background-color: #f3f3f3;
             .input-panel{
                 width: 100%;
@@ -333,6 +334,8 @@
                     outline: none;
                     font-size: .18rem;
                     -webkit-appearance: none;
+                    -webkit-tap-highlight-color: rgba(0,0,0,0);
+                    box-shadow: none;
                 }
                 .send{
                     color: #53b3f8;
