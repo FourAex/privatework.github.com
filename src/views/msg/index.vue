@@ -187,19 +187,20 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-bottom: env(safe-area-inset-bottom);
         .nav-bar{
             width: 100%;
             height: .5rem;
             min-height: .5rem;
             position: relative;
-            background-color: #f3f3f3;
+            background-color: #202231;
             .title{
                 width: 100%;
                 height: 100%;
                 line-height: .5rem;
                 text-align: center;
                 font-weight: bold;
-                color: #000;
+                color: #fff;
                 font-size: .18rem;
             }
             .btn{
@@ -221,8 +222,8 @@
         .content{
             flex: 1;
             width: 100%;
-            height: calc(100vh - 2.25rem);
-            background-color: #ededed;
+            height: calc(100vh - 1.95rem - env(safe-area-inset-bottom));
+            background-color: #161823;
             padding: 0 .14rem;
             display: flex;
             flex-direction: column;
@@ -247,9 +248,9 @@
                     }
                     .detail{
                         padding: 0.08rem .10rem;
-                        color: #333;
+                        color: #f3f3f3;
                         border-radius: 0.04rem;
-                        background-color: #fff;
+                        background-color: #202231;
                         font-size: .16rem;
                         line-height: .24rem;
                         position: relative;
@@ -258,7 +259,7 @@
                 }
                 .left-msg{
                     .detail{
-                        border: 1px solid #ccc;
+                        border: 1px solid #3c3c3c;
                         margin: 0 0.48rem 0 0.2rem;
                         &:after{
                             content: ' ';
@@ -309,7 +310,7 @@
         .opts-panel{
             width: 100%;
             height: 1.45rem;
-            background-color: #f3f3f3;
+            background-color: #202231;
             .input-panel{
                 width: 100%;
                 height: .4rem;
@@ -328,8 +329,8 @@
                     height: .4rem;
                     padding: .14rem .14rem;
                     border-radius: .4rem;
-                    border: 1px solid #ccc;
-                    background-color: #fff;
+                    border: 1px solid #3c3c3c;
+                    background-color: #161823;
                     margin: 0 .12rem;
                     outline: none;
                     font-size: .18rem;
@@ -347,7 +348,6 @@
                 display: flex;
                 align-items: center;
                 justify-content: space-around;
-                margin-bottom: .22rem;
                 .btn{
                     img{
                         display: block;

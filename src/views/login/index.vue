@@ -59,14 +59,14 @@
             height: .5rem;
             min-height: .5rem;
             position: relative;
-            background-color: #f3f3f3;
+            background-color: #202231;
             .title{
                 width: 100%;
                 height: 100%;
                 line-height: .5rem;
                 text-align: center;
                 font-weight: bold;
-                color: #000;
+                color: #fff;
                 font-size: .18rem;
             }
             .btn{
@@ -88,7 +88,7 @@
         .content{
             flex: 1;
             width: 100%;
-            background-color: #ededed;
+            background-color: #161823;
             position: relative;
             .bg{
                 position: absolute;
@@ -96,7 +96,7 @@
                 left: 50%;
                 transform: translateX(-50%);
                 font-size: .16rem;
-                color: #888;
+                color: #fff;
                 text-align: center;
                 img{
                     width: 2.14rem;
