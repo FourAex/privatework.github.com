@@ -11,8 +11,8 @@ html,body{
 }
 #main{
     font-size: 16px;
-    padding-bottom: calc(.18rem + constant(safe-area-inset-bottom));
-    padding-bottom: calc(.18rem + env(safe-area-inset-bottom));
+    padding-bottom: calc(.02rem + constant(safe-area-inset-bottom));
+    padding-bottom: calc(.02rem + env(safe-area-inset-bottom));
 }
 #main .banner{
     width: 100%;
@@ -59,7 +59,7 @@ html,body{
 .content .list{
     width: 100%;
     font-size: 12px;
-    color: #757170;
+    color: #333;
     list-style: none;
     border-bottom: 1px solid rgba(242, 242, 242, 1);
 }
